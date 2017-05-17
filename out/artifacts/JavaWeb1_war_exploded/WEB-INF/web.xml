@@ -14,4 +14,14 @@
     </servlet-mapping>
 
 
+    <servlet>
+        <servlet-name>Chapter1 Servlet</servlet-name>
+        <servlet-class>Ch1Servlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Chapter1 Servlet</servlet-name>
+        <url-pattern>/Serv1</url-pattern>
+    </servlet-mapping>
+
 </web-app>
